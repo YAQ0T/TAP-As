@@ -1,0 +1,153 @@
+body {
+  display: grid;
+  justify-items: center;
+}
+.container {
+  font-family: "Poppins", sans-serif;
+  display: grid;
+  grid-template-rows: 1fr 4fr;
+  width: 90vw;
+  height: 40vw;
+  margin-top: 6vh;
+  justify-items: center;
+}
+.barContainer {
+  display: grid;
+  width: 80vw;
+  justify-items: end;
+}
+.bar {
+  display: grid;
+  grid-template-columns: 1fr 1.15fr 1.2fr;
+  width: 30vw;
+
+  align-items: center;
+  text-align: center;
+  margin-bottom: 7vh;
+  justify-items: start;
+}
+.mainInfo {
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+  justify-items: center;
+  width: 80vw;
+}
+.leftSide {
+  display: grid;
+
+  width: 23vw;
+  align-items: center;
+}
+.rightSide {
+  display: grid;
+  width: 16vw;
+}
+.myPhoto > img {
+  width: 22vw;
+  height: 24vw;
+  border-radius: 0px 0px 150px 0px;
+  box-shadow: 40px 17px 0px -19px #3bbadb;
+  transform: scaleX(-1);
+}
+a > p {
+  display: grid;
+  justify-content: start;
+  margin-left: 0.5vw;
+}
+.Home > a {
+  display: grid;
+  width: 6vw;
+  grid-template-columns: 1fr 3fr;
+  justify-items: end;
+}
+
+.AboutMe > a {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  width: 7vw;
+  justify-items: end;
+}
+
+.ContactMe > a {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  width: 9vw;
+  justify-items: end;
+}
+
+a {
+  display: grid;
+  align-items: center;
+  color: black;
+  text-decoration: none;
+}
+#home {
+  color: #d1884f;
+}
+.welcome > h3 {
+  color: #3bbadb;
+  font-weight: 200;
+}
+.mainTitle {
+  color: #008aaa;
+}
+h1 {
+  display: inline;
+  font-size: 1.8vw;
+}
+#defColorTitle {
+  color: #d1884f;
+}
+#seeMore {
+  color: #3bbadb;
+}
+.buttons {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  width: 22vw;
+  margin-top: 4vh;
+}
+.firstButton > button {
+  background-color: #008aaa;
+  color: white;
+  font-weight: 530;
+  border-radius: 3px;
+  border: 1px solid #008aaa;
+  width: 8vw;
+  height: 2.5vw;
+  border: 1px;
+  font-size: 1vw;
+  box-shadow: 0px 5px 3px 0 rgba(0, 138, 170, 0.18),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.secondButton > button {
+  background-color: white;
+  width: 11vw;
+  height: 2.5vw;
+  border: 1px solid #3bbadb;
+  border-radius: 3px;
+  color: #3bbadb;
+  font-weight: 530;
+  margin-left: 0vw;
+  font-size: 1vw;
+  box-shadow: 0px 5px 3px 0 rgba(154, 150, 150, 0.11);
+}
+p > a {
+  display: inline;
+}
+
+p {
+  font-size: 1vw;
+}
+h3 {
+  font-size: 1.5vw;
+  font-weight: 800;
+}
+.Description {
+  width: 25vw;
+}
+
+i {
+  font-size: 1vw;
+}
