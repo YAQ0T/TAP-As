@@ -13,7 +13,7 @@ body {
 }
 .barContainer {
   display: grid;
-  width: 80vw;
+  width: 64vw;
   justify-items: end;
 }
 .bar {
@@ -29,7 +29,7 @@ body {
 .mainInfo {
   display: grid;
   grid-template-columns: 3fr 2fr;
-  justify-items: center;
+
   width: 80vw;
 }
 .leftSide {
